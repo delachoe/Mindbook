@@ -9,7 +9,7 @@
           </div>
 
             <div>
-              <p id="email">{{profiles.email}}</p>
+              <p id="email"> {{profiles.email}}</p>
               <p id="website">www.{{profiles.website}}</p>
             </div>
               
@@ -22,7 +22,6 @@
             <div>
               <button class="buttons" @click="toggle(profiles.id)">{{ isActive[profiles.id]? 'Decline':'Accept'}}</button>
             </div>
-
           </div>
       </div>
   </div>
