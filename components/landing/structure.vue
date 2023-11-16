@@ -1,7 +1,7 @@
 <template>
 
     <div class="wrap">
-        <h1>Meet The Billioniares</h1>
+        <h1>Meet The MindGurus</h1>
         <NuxtLink to="/auth/login">Welcome</NuxtLink>
     </div>
 
